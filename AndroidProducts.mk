@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_A001D.mk
+    $(LOCAL_DIR)/hentai_A001D.mk
