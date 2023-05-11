@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kangos_A001D.mk
+    $(LOCAL_DIR)/nitrogen_A001D.mk
