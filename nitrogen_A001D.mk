@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/asus/A001D/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/kangos/config/common.mk)
+$(call inherit-product, vendor/nitrogen/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := A001D
-PRODUCT_NAME := kangos_A001D
+PRODUCT_NAME := nitrogen_A001D
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_A001D
 PRODUCT_MANUFACTURER := asus
