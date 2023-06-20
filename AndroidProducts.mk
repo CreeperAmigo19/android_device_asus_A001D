@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lmodroid_A001D.mk
+    $(LOCAL_DIR)/fluid_A001D.mk
