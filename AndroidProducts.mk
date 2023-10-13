@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revangeos_A001D.mk
+    $(LOCAL_DIR)/revengeos_A001D.mk
