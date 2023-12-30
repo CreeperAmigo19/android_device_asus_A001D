@@ -2,11 +2,9 @@
 #include <gui/ISurfaceComposer.h>
 
 namespace android {
-  namespace android {
-      extern "C" void _ZN7android20DisplayEventReceiverC1ENS_16ISurfaceComposer11VsyncSourceENS1_13ConfigChangedE(ISurfaceComposer::VsyncSource vsyncSource, ISurfaceComposer::ConfigChanged configChanged);
+    extern "C" void _ZN7android20DisplayEventReceiverC1ENS_16ISurfaceComposer11VsyncSourceENS_5FlagsINS1_17EventRegistrationEEE(ISurfaceComposer::VsyncSource vsyncSource, ISurfaceComposer::EventRegistrationFlags eventRegistration);
 
-      extern "C" void _ZN7android20DisplayEventReceiverC1ENS_16ISurfaceComposer11VsyncSourceE(ISurfaceComposer::VsyncSource vsyncSource) {
-                      _ZN7android20DisplayEventReceiverC1ENS_16ISurfaceComposer11VsyncSourceENS1_13ConfigChangedE(vsyncSource, ISurfaceComposer::eConfigChangedSuppress);
-      }
-  }
+    extern "C" void _ZN7android20DisplayEventReceiverC1ENS_16ISurfaceComposer11VsyncSourceE(ISurfaceComposer::VsyncSource vsyncSource) {
+                    _ZN7android20DisplayEventReceiverC1ENS_16ISurfaceComposer11VsyncSourceENS_5FlagsINS1_17EventRegistrationEEE(vsyncSource, {});
+    }
 }

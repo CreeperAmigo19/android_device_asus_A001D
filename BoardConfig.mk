@@ -36,6 +36,7 @@ TARGET_BOARD_PLATFORM := msm8953
 TARGET_BOARD_SUFFIX := _64
 
 # Broken Rules
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_PREBUILT_ELF_FILES := true
@@ -108,8 +109,8 @@ BOARD_CHARGER_DISABLE_INIT_BLANK := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Shims
-#TARGET_LD_SHIM_LIBS := \
-#    /vendor/lib/hw/camera.msm8953.so|libshims_camera.so
+TARGET_LD_SHIM_LIBS := \
+    /vendor/lib/hw/camera.msm8953.so|libshims_camera.so
 
 # Config
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
